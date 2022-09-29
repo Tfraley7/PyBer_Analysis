@@ -28,7 +28,7 @@ August 31, 2022
   <img width="460" height="200" src="StudentData3.png">
 </p>
 
-##Summary
+## Summary
 
    In closing, the findings in this data set drew up causual relationships between Charter and Public schools' budgets and grades. This was found through proper data collection, summarizing, and data analytics parsing techniques through Pandas fuctions. As mentioned, such data could be contributed to the community through further research to infer upon educational performance between the two types of schools. This would possibly be best demonstrated in a mixed methods study, but could be done through quantitative analysis alone if one does not want to capture thoughts and feelings of the participants and only numerical values of the subjects. According to Schonenboom and Burke Johnson (2017) "mixed methods research (“Mixed Methods” or “MM”) is the sibling of multimethod research (“Methodenkombination”) in which either solely multiple qualitative approaches or solely multiple quantitative approaches are combined." However, in order to do this one may have to compile more research based on teaching styles and methods of the schools and the school types overall by usings the .join() function within Python. 
    
