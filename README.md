@@ -4,7 +4,7 @@ Tyrone Fraley,
 UC Berkley Extension,
 August 31, 2022
 
-## Project
+## Project: Student Data
 
   The "Student Data Challenger Starter Code" data was analyzed with the use of Pandas and exercised in a Jupyter notebook. Upon analysis of the "Student Data Challenger Starter Code" the average math and reading scores were similar for both types of schools. The Public and Charter schools had an average reading score of 72%. Albeit, close in results the average math scores did slightly differ. Mathematical scores fo Public schools came in at 62% and Charter schools came in at 66%. When considering budget and it's causual relationship with grade averages it does denote some concern, considering the average budget for the charter schools is $38,570 on average. This could beg one to consider class room sizes, teacher salaries, teaching methods, types classrom materials, etc as possible variables that could be causing Charter schools to slightly out perform Public schools (on average) when observing the differences in budgets. 
     
