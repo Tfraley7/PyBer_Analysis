@@ -16,7 +16,7 @@ Working at Pyber - a Python-based ridesharing app company worth $2.3 billion. I 
 To properly vizualize the data I wrote Python scrips using Pandas libraries, Jupyter Notebook, and Matplotlib. This way charts could display the correlation between the different types of cities, rides, and fares. By collecting, calculating, and amalgamating the ride sharing/city data into a data frame. All collected data was then presented in a line graph. 
 
 <p align="center">
-  <img width="460" height="300" src="Screen Shot 2022-09-30 at 4.15.08 PM.png">
+  <img width="560" height="300" src="Screen Shot 2022-09-30 at 4.14.54 PM.png">
 </p>
 
 To combine the ride sharing data and the city data I used pandas merge function (pyber_data_df = pd.merge(ride_data_df, city_data_df, how="left", on=["city", "city"]). This allowed me to carefully parse my merged data frames into not only one data set, but organize my data as well. The data frame at this point was more readable at this point with "city" as the first column and "type" as the final column. This data frame was adjusted throughout the analysis to make the data more user friendly. 
@@ -36,9 +36,8 @@ At this point in the analysis I organized the data frame with a dicitionary func
 Cleaning up the data frame (df.index.name = Name) and formating columns was a necessary next step in the analysis process before moving onto merging data frames again before creating a line plot. TO format the columns the data frame included the column name and formatting functions (pyber_summary_df["Total Rides"] = pyber_summary_df["Total Rides"].map("{:,}".format)). Before creating the multiple line plot the data frame is observed through the .head() function to ensure the data frame was formatted properly. At this point it was importanat to create a new data frame and include dates within the data frame (.groupby(["type", "date"]).sum()["fare"]). The data frame was then placed ina pivot table ((index="date", columns="type", values="fare")) where I could identify dates, fares, and city types. Moving further into the analysis another data frame was created with the "resample()" function to observe the sum of the fares per week (.resample("W").sum()). Finally, by using matplotlib the dataframe could now be placed into a multiple line chart. Plotting the x and ylabels, initiating a style (style.use('fivethirtyeight), plotting the title, and saving the multiple line chart was the final step in the analysis.
 
 <p align="center">
-  <img width="460" height="300" src="Screen Shot 2022-09-30 at 4.14.54 PM.png">
+  <img width="660" height="300" src="Screen Shot 2022-09-30 at 4.15.08 PM.png">
 </p>
-
 
 ### Results
 
