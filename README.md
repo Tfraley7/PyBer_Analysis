@@ -1,7 +1,7 @@
 # PyBer Analysis
 
-Tyrone Fraley
-UC Berkley Extension
+Tyrone Fraley,
+UC Berkley Extension,
 August 31, 2022
 
 map.jpeg
