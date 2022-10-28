@@ -4,7 +4,7 @@ Tyrone Fraley,
 UC Berkley Extension,
 August 31, 2022
 
-map.jpeg
+
 
 <p align="center">
   <img width="460" height="300" src="map.jpeg">
